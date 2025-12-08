@@ -32,15 +32,7 @@
 ---
 
 ### 📌 Featured Projects
-#### 🏭 [Manufacturing Anomaly Detection System](프로젝트_링크)
-- **개요:** 스마트팩토리 센서 데이터(진동/전류)를 활용한 딥러닝 기반 이상 탐지 모델
-- **핵심 기술:** LSTM-AutoEncoder, Data Preprocessing, Streamlit Visualization
-- **문제 해결:** 기존 Rule-based 방식의 잦은 오탐지(False Alarm) 문제를 비지도 학습으로 해결
 
-#### 🤖 [Tech-Doc RAG Chatbot](프로젝트_링크)
-- **개요:** 방대한 사내 기술 문서(PDF)를 검색하고 답변하는 QA 챗봇
-- **핵심 기술:** LangChain, OpenAI API, ChromaDB (Vector Store)
-- **특징:** SWM 재직 시절 문서 관리 경험을 바탕으로 기술 문서 검색 효율화 구현
 
 ---
 
