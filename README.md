@@ -1,120 +1,49 @@
-# 👋 Glowcloudy (Hong Moon Bong)
+# Hi there, I'm Munbong Hong 👋
 
-**Industrial AI · Smart Factory · DevOps & Software Verification Engineer**
+### 🚀 Data-Driven AI & MLOps Engineer
+**"물리학의 엄밀함으로 데이터를 분석하고, 엔지니어링 역량으로 시스템을 운영합니다."**
 
-데이터 기반 문제 해결과 제조·반도체·스마트팩토리 도메인 경험을 바탕으로  
-실제 현장에 적용 가능한 **AI·분석·자동화 시스템을 개발하는 엔지니어**입니다.
-
----
-
-## 🔧 Tech Stack
-
-### Languages
-- **Python**, C++, Bash
-
-### AI & Machine Learning
-- **PyTorch**, Scikit-learn, Pandas, NumPy  
-- 시계열 예측, 이상 탐지, 제조 데이터 분석
-
-### DevOps & System
-- **Jenkins**, Docker, Ubuntu/Linux  
-- 자동 분석 파이프라인 구축  
-- 코드 품질/정적 분석 기반 검증
-
-### Tools & Engineering
-- SonarQube  
-- Git, GitHub  
-- 시각화 (Matplotlib, Seaborn, Plotly)
+저는 데이터의 인과관계를 파악하는 분석력과, 시스템 안정성을 책임지는 운영 역량을 겸비한 엔지니어입니다.
+물리학 석사 과정에서 익힌 데이터 검증 노하우를 바탕으로, 스마트팩토리와 차량용 SW 분야에서 **4년 3개월간 실무 경험**을 쌓았습니다.
+현재는 이러한 도메인 지식에 AI 기술을 결합하여, **신뢰할 수 있는 AI 파이프라인(MLOps)**을 구축하는 데 집중하고 있습니다.
 
 ---
 
-## 🏭 Industrial Background
+### 💼 Experience
+- **SWM (Automotive SW Tier-1)** (2022.11 - 2024.12)
+  - [cite_start]차량용 SW 품질 검증 및 정적 분석(Static Analysis) 프로세스 운영 [cite: 500, 501]
+  - [cite_start]**Docker & Jenkins** 기반의 자동화 파이프라인 PoC 연구 및 기술 검증 [cite: 510, 657]
+  - [cite_start]대용량 결함 데이터(Defect Data) 분석 및 리포팅 자동화 [cite: 648]
 
-- **Smart Factory SW 유지보수**
-  - 불량 검출 로직 개선 (기준 2중화, 오탐률 감소)
-  - 현장 데이터 기반 분석
-
-- **정적 분석 기반 품질 검증**
-  - MISRA C/C++ 준수 검토
-  - OSS 검증 & SPDX 생성
-  - Code Coverage, High Impact Defect 분석
-
-- **DevOps 환경 구축**
-  - Jenkins + Docker + SonarQube 자동화
-  - 품질 리포트 자동화
-
-- **반도체 장비 및 공정 실습 경험**
-  - 6인치 웨이퍼 기반 8대 공정 실습
-  - PLC·센서·구동부 제어 회로 구성
-
-이 경험들을 기반으로  
-**“도메인을 이해하는 AI 엔지니어”**를 지향합니다.
+- **3View (Smart Factory IoT)** (2020.12 - 2022.09)
+  - [cite_start]냉간단조 설비 모니터링 시스템 유지보수 및 데이터 분석 [cite: 515, 517]
+  - [cite_start]노이즈 데이터를 고려한 **이중 허용 오차(Dual Tolerance)** 알고리즘 구현 (C#) [cite: 518, 665]
+  - [cite_start]현장 데이터 전처리(Preprocessing) 및 시계열 데이터 시각화 [cite: 670]
 
 ---
 
-## 📁 Major AI Projects
-
-### 🔷 1. Manufacturing Anomaly Detection
-공정·설비 로그 데이터를 기반으로
-
-- AutoEncoder  
-- One-Class SVM  
-- Isolation Forest
-
-을 활용해 **비지도 기반 이상 탐지 모델 구현**
-
-→ “라벨 부족한 제조 현장” 문제를 현실적으로 해결
-
-🔗 (Repository link 예정)
+### 🛠 Tech Stack
+| Category | Skills |
+| :--- | :--- |
+| **AI & Data** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
+| **Development** | ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) |
 
 ---
 
-### 🔷 2. Predictive Maintenance (RUL) – LSTM/GRU
-센서 시계열 데이터를 활용해
+### 📌 Featured Projects
+#### 🏭 [Manufacturing Anomaly Detection System](프로젝트_링크)
+- **개요:** 스마트팩토리 센서 데이터(진동/전류)를 활용한 딥러닝 기반 이상 탐지 모델
+- **핵심 기술:** LSTM-AutoEncoder, Data Preprocessing, Streamlit Visualization
+- **문제 해결:** 기존 Rule-based 방식의 잦은 오탐지(False Alarm) 문제를 비지도 학습으로 해결
 
-- 장비 남은 수명(RUL) 예측  
-- MAE/RMSE 기반 모델 비교
-
-→ 설비 교체 주기 최적화
-
-🔗 (Repository link 예정)
-
----
-
-### 🔷 3. Log → Auto Report Generator (NLP & Rule-based)
-- 로그/리포트 자동 분석  
-- 고장 구간 자동 탐지  
-- Markdown 보고서 자동 생성
-
-→ 품질 팀의 반복 업무를 자동화
-
-🔗 (Repository link 예정)
+#### 🤖 [Tech-Doc RAG Chatbot](프로젝트_링크)
+- **개요:** 방대한 사내 기술 문서(PDF)를 검색하고 답변하는 QA 챗봇
+- **핵심 기술:** LangChain, OpenAI API, ChromaDB (Vector Store)
+- **특징:** SWM 재직 시절 문서 관리 경험을 바탕으로 기술 문서 검색 효율화 구현
 
 ---
 
-### 🔷 4. Streamlit Smart Factory Dashboard
-- 파일 업로드 → 자동 분석 → 결과 시각화  
-- 이상 구간 그래프 표시  
-- 분석 결과 보고서 자동 생성
-
-→ “AI를 운영 관점에서 보여주는” 프로젝트
-
-🔗 (Repository link 예정)
-
----
-
-## 🎯 Career Goal
-
-> **단순 모델링이 아닌  
-현장 데이터를 기반으로 “예측 가능한 산업 AI”를 구현하는 엔지니어**
-
-- 제조/반도체/스마트팩토리 분야에서  
-  AI 기반 자동화·정확도 개선·운영 효율화를 실현하는 것
-- DevOps + ML + Domain 경험을 융합한  
-  **현실적인 AI 기술 적용**
-
----
-
-## 📫 Contact
-
-- GitHub: https://github.com/Glowcloudy
+### 📫 Contact
+- [cite_start]**Email:** hmb91@naver.com 
+- [cite_start]**GitHub:** [https://github.com/Glowcloudy](https://github.com/Glowcloudy) [cite: 4, 725]
